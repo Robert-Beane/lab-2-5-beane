@@ -16,6 +16,9 @@ export class CartService {
     this.items = [];
     return this.items;
   }
+  getShippingPrices(){
+    return this.http.get('/assests/shipping.json');
+  }
 
   constructor(
     private http: HttpClient
