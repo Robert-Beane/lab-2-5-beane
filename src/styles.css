@@ -80,6 +80,7 @@ label {
   background-color: #1976d2;
   color: white;
   border: none;
+  transition: .4s;
 }
 
 .button:hover, button:hover {
