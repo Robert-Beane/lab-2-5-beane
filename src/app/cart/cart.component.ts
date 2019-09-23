@@ -24,6 +24,7 @@ export class CartComponent implements OnInit {
   }
 
   onSubmit(customerData){
+    window.alert('Thank you for your order! Watch your mailbox.');
     console.warn('Your order has been submitted', customerData);
     this.items = this.cartService.clearCart();
     this.checkoutForm.reset();
